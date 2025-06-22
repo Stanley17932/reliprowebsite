@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Slider = () => {
   // Using placeholder images for demonstration - replace with your actual image paths
@@ -49,7 +50,7 @@ const Slider = () => {
               className="flex-shrink-0 w-full h-full relative"
               style={{ minWidth: "100%" }}
             >
-              <img
+              <Image
                 src={src}
                 alt={`Slide ${index + 1}`}
                 className="w-full h-full object-cover"
