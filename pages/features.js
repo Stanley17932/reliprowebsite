@@ -120,7 +120,7 @@ const Features = () => {
           <section className="text-center bg-blue-600 text-white py-16 px-4 rounded-lg shadow-md">
             <h2 className="text-3xl font-bold mb-4">Why Choose ReliPro?</h2>
             <p className="text-lg mb-6">
-              ReliPro is not just another maintenance platform. It's an
+              ReliPro is not just another maintenance platform. It&apos;s an
               AI-driven, scalable solution designed to optimize your operations
               and prevent costly downtime. With features like real-time
               monitoring, predictive maintenance, and mobile technician support,
