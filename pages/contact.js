@@ -27,7 +27,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <form
-            action="mailto:relipro22@gmail.com"
+            action="mailto:stanley.otieno@relipro.pro"
             method="POST"
             encType="text/plain"
             className="bg-gray-800 p-8 rounded-lg shadow-lg"
