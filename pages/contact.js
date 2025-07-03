@@ -20,7 +20,7 @@ const Contact = () => {
               href="mailto:relipro22@gmail.com"
               className="text-green-600 hover:text-green-900"
             >
-              relipro22@gmail.com
+              stanley.otieno@relipro.pro
             </a>
             .
           </p>
