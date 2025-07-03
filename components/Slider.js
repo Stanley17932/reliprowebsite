@@ -53,6 +53,8 @@ const Slider = () => {
               <Image
                 src={src}
                 alt={`Slide ${index + 1}`}
+                width={1200} // Set to your image's width
+                height={800} // Set to your image's height
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   // Fallback for broken images
@@ -128,8 +130,8 @@ const Slider = () => {
             onClick={() => goToSlide(index)}
             className={`w-3 h-3 rounded-full transition-all duration-200 ${
               index === currentIndex
-                ? "bg-white"
-                : "bg-white bg-opacity-50 hover:bg-opacity-75"
+                ? "bg-white hover:bg-white hover:bg-opacity-100"
+                : "bg-white bg-opacity-50 hover:bg-white hover:bg-opacity-100"
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />
