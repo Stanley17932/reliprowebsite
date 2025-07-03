@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "../styles/globals.css"; // Import global styles
+import { Analytics } from "@vercel/analytics/react"; // Import Vercel Analytics
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       transition={{ duration: 1 }}
     >
       <Component {...pageProps} />
+      <Analytics />
     </motion.div>
   );
 }
