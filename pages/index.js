@@ -31,6 +31,10 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <Testimonials />
+      <script
+        src="//code.tidio.co/xjyq40ywqzxr5moshzltjhh62xy2rocr.js"
+        async
+      ></script>
 
       {/* Footer component */}
       <Footer />
