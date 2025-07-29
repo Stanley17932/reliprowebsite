@@ -15,7 +15,6 @@ export default function Home() {
         <meta name="keywords" content="predictive maintenance, maintenance solutions, industrial maintenance, reliability, predictive analytics" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="ReliPro - Predictive Maintenance Solutions" />
-        <meta property="og:description" content="Revolutionizing Maintenance with Predictive Insights" />
         <meta property="og:type" content="website" />
       </Head>
       
